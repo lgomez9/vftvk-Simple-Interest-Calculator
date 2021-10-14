@@ -28,3 +28,11 @@ function updateRate() {
   console.log(rateval);
   document.getElementById("rate_val").innerText = rateval;
 }
+
+// Resets the inputs to their defaults
+function reset() {
+  document.getElementById("principal").value = "";
+  document.getElementById("rate").innerText = "10.25%";
+  document.getElementById("years").selectedIndex = 0;
+  document.getElementById("result").innerHTML = "";
+}
