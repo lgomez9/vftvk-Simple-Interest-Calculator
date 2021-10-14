@@ -9,12 +9,6 @@ h1 {
   font-family: verdana;
 }
 
-footer {
-  position: fixed;
-  left: 25%;
-  top: 350px;
-}
-
 .maindiv {
   background-color: white;
   color: black;
