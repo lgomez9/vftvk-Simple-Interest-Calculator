@@ -10,9 +10,9 @@ h1 {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   left: 25%;
-  top: 37%;
+  top: 350px;
 }
 
 .maindiv {
